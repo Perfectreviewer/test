@@ -43,6 +43,13 @@ export function toTheme(value: string | undefined): QuestionTheme {
   return 'exploration';
 }
 
+// Source links in the data sometimes arrive without "https://". A browser then reads
+// "www.nasa.gov/page" as a path on OUR site (…/www.nasa.gov/page) and the link breaks.
+export function externalUrl(url: string): string {
+  const u = url.trim();
+  return /^[a-z][a-z0-9+.-]*:\/\//i.test(u) ? u : `https://${u.replace(/^\/+/, '')}`;
+}
+
 // Accepts YYYY, YYYY-MM or YYYY-MM-DD. Formats in UTC so the day doesn't shift by timezone.
 export function formatDate(value: string): string {
   const m = /^(\d{4})(?:-(\d{2}))?(?:-(\d{2}))?$/.exec(value);

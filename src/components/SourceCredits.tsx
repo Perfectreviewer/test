@@ -1,5 +1,6 @@
 import { useId } from 'react';
 import type { Credit, Source } from '../types/mission';
+import { externalUrl } from '../data/display';
 import './SourceCredits.css';
 import { useSplitReveal } from '../hooks/useSplitReveal';
 
@@ -35,7 +36,7 @@ export function SourceCredits({
             <ul className="source-credits__list">
               {sources.map((s) => (
                 <li key={s.url}>
-                  <a href={s.url} target="_blank" rel="noopener noreferrer">
+                  <a href={externalUrl(s.url)} target="_blank" rel="noopener noreferrer">
                     {s.title}
                     <span className="source-credits__sr-only">
                       {' '}
@@ -58,7 +59,7 @@ export function SourceCredits({
               {credits.map((c) => (
                 <li key={`${c.asset}-${c.source}`}>
                   {c.url ? (
-                    <a href={c.url} target="_blank" rel="noopener noreferrer">
+                    <a href={externalUrl(c.url)} target="_blank" rel="noopener noreferrer">
                       {c.asset}
                       <span className="source-credits__sr-only">
                         {' '}

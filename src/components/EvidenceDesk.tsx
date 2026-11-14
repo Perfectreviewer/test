@@ -1,5 +1,6 @@
 import { useEffect, useId, useMemo, useState } from 'react';
 import type { EvidenceClaim, EvidenceLabel, Mission } from '../types/mission';
+import { externalUrl } from '../data/display';
 import {
   EVIDENCE_LABEL_GLYPH,
   EVIDENCE_LABEL_ORDER,
@@ -130,7 +131,7 @@ export function EvidenceDesk({
                 {source ? (
                   <p className="evidence-claim__source">
                     Source:{' '}
-                    <a href={source.url} target="_blank" rel="noopener noreferrer">
+                    <a href={externalUrl(source.url)} target="_blank" rel="noopener noreferrer">
                       {source.title}
                       <span className="evidence-desk__sr-only">
                         {' '}

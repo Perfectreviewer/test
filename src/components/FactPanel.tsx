@@ -1,6 +1,6 @@
 import { useId } from 'react';
 import type { Mission } from '../types/mission';
-import { STATUS_GLYPH, STATUS_TEXT, formatDate } from '../data/display';
+import { STATUS_GLYPH, STATUS_TEXT, externalUrl, formatDate } from '../data/display';
 import './FactPanel.css';
 import { useSplitReveal } from '../hooks/useSplitReveal';
 
@@ -92,7 +92,7 @@ export function FactPanel({
         <ul>
           {mission.sources.map((s) => (
             <li key={s.url}>
-              <a href={s.url} target="_blank" rel="noopener noreferrer">
+              <a href={externalUrl(s.url)} target="_blank" rel="noopener noreferrer">
                 {s.title}
                 <span className="fact-panel__sr-only">
                   {' '}

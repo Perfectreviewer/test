@@ -50,29 +50,29 @@
     "sources": [
       {
         "id": "nasa-opportunity-jpl",
-        "title": "NASA Record-Setting Opportunity Rover Mission Comes to an End",
+        "title": "NASA's Opportunity Rover Mission on Mars Comes to End",
         "publisher": "NASA Jet Propulsion Laboratory (JPL)",
-        "url": "www.nasa.gov/press-release/nasa-s-record-setting-opportunity-rover-mission-comes-to-an-end"
+        "url": "https://www.jpl.nasa.gov/news/nasas-opportunity-rover-mission-on-mars-comes-to-end/"
       },
       {
         "id": "nasa-opportunity-science",
         "title": "Mars Exploration Rovers Science Highlights",
         "publisher": "NASA Science Planetary Division",
-        "url": "science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/science-highlights/"
+        "url": "https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/science-highlights/"
       }
     ],
     "credits": [
       {
         "asset": "3D Model of MER Opportunity Rover",
-        "source": "NASA VTAD / JPL-Caltech",
+        "source": "NASA 3D Resources",
         "license": "NASA Public Domain",
-        "url": "solarsystem.nasa.gov/resources/2382/opportunity-rover-3d-model/"
+        "url": "https://github.com/nasa/NASA-3D-Resources/tree/master/3D%20Models/Mars%20Exploration%20Rover%20-%20Opportunity%20(MER-B)"
       },
       {
         "asset": "Pancam and Microscopic Imagery",
         "source": "NASA / JPL-Caltech / Cornell / ASU",
         "license": "NASA Public Domain",
-        "url": "mars.nasa.gov/mer/gallery/all/opportunity.html"
+        "url": "https://mars.nasa.gov/mer/gallery/all/opportunity.html"
       }
     ]
   },
@@ -128,27 +128,26 @@
         "id": "nasa-nssdc-lrv",
         "title": "Apollo 15 Lunar Module / LRV Record (NSSDC ID: 1971-063C)",
         "publisher": "NASA National Space Science Data Center",
-        "url": "nssdc.gsfc.nasa.gov/nmc/spacecraft/displayTrajectory.action?id=1971-063C"
+        "url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/displayTrajectory.action?id=1971-063C"
       },
       {
         "id": "nasa-marshall-lrv",
-        "title": "Apollo Lunar Roving Vehicle Historical Archive",
+        "title": "Apollo 15 and the Lunar Roving Vehicle",
         "publisher": "NASA Marshall Space Flight Center",
-        "url": "www.nasa.gov/centers/marshall/history/lrv.html"
+        "url": "https://www.nasa.gov/centers/marshall/history/apollo15_140731.html"
       }
     ],
     "credits": [
       {
         "asset": "3D Model of Lunar Roving Vehicle",
-        "source": "NASA Marshall Space Flight Center / NASA 3D Resources",
-        "license": "NASA Public Domain",
-        "url": "nasa3d.arc.nasa.gov/detail/lunarlanderv2"
+        "source": "Built by Team UA VEYLORA (not a NASA model)",
+        "license": "Educational / Project Original"
       },
       {
         "asset": "Apollo Surface Photography",
         "source": "NASA Johnson Space Center",
         "license": "NASA Public Domain",
-        "url": "www.nasa.gov/multimedia/imagegallery/index.html"
+        "url": "https://www.nasa.gov/multimedia/imagegallery/index.html"
       }
     ]
   },
@@ -203,27 +202,27 @@
         "id": "nasa-ingenuity-jpl",
         "title": "Ingenuity Mars Helicopter Mission Updates & Flight Log",
         "publisher": "NASA Jet Propulsion Laboratory (JPL)",
-        "url": "science.nasa.gov/mission/mars-2020-perseverance/ingenuity-mars-helicopter/"
+        "url": "https://science.nasa.gov/mission/mars-2020-perseverance/ingenuity-mars-helicopter/"
       },
       {
         "id": "nasa-ingenuity-press",
-        "title": "NASAs Ingenuity Helicopter Logs Final Flight on Mars",
+        "title": "After Three Years on Mars, NASA’s Ingenuity Helicopter Mission Ends",
         "publisher": "NASA Headquarters Press Release",
-        "url": "www.nasa.gov/press-release/after-3-years-on-mars-nasa-s-ingenuity-helicopter-mission-ends"
+        "url": "https://www.nasa.gov/news-release/after-three-years-on-mars-nasas-ingenuity-helicopter-mission-ends/"
       }
     ],
     "credits": [
       {
         "asset": "3D Model of Ingenuity Mars Helicopter",
-        "source": "NASA/JPL-Caltech",
+        "source": "NASA 3D Resources",
         "license": "NASA Public Domain",
-        "url": "mars.nasa.gov/resources/25042/ingenuity-3d-model/"
+        "url": "https://github.com/nasa/NASA-3D-Resources/tree/master/3D%20Models/Ingenuity%20Mars%20Helicopter"
       },
       {
         "asset": "WATSON and NAVCAM Flight Images",
         "source": "NASA/JPL-Caltech/MSSS",
         "license": "NASA Public Domain",
-        "url": "mars.nasa.gov/mars2020/multimedia/raw-images/"
+        "url": "https://mars.nasa.gov/mars2020/multimedia/raw-images/"
       }
     ]
   }
